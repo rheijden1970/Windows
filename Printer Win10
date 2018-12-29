@@ -1,0 +1,4 @@
+    Press windows key + R. Type 'regedit' in the Open box, and then click OK.
+    Locate, and then click the following registry subkey if it exists: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\PostSPUpgrade
+    On the Edit menu, click Delete, and then click Yes to confirm the removal of the PostSPUpgrade registry key.
+    Restart your PC (OR run ‘net stop spooler’ followed by ‘net start spooler’ from an elevated command prompt).
